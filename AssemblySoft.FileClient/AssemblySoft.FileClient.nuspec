@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AssemblySoft.FileClient</id>
+    <version>1.0.0.3</version>
+    <title>AssemblySoft.FileClient</title>
+    <authors>Carl Randall</authors>
+    <owners>AssemblySoft</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://www.assemblysoft.com/packages</projectUrl>
+    <iconUrl>https://www.assemblysoft.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>File client for .Net Framework for common file tasks.</description>
+    <summary>Copy directory, Delete file, Create a clean directory structure from an existing populated directory structure.</summary>
+    <tags>File Copy, Directory Copy, Delete File, Unzip directory, unzip file, Create empty directory structure from existing directory</tags>
+    <!--
+    <releasenote>
+      Removed obsolete method: WriteToFile
+      Supports .Net Framework up to version 4.5.2
+    </releasenote>
+    -->
+  </metadata>
+</package>
+
+
+<!--
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+</package>
+-->
