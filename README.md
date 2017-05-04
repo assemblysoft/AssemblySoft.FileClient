@@ -8,4 +8,4 @@ NuGet package via NuGet: AssemblySoft.FileClient
 
 License
 
-FileClient is distributed under the MIT License.
+AssemblySoft.FileClient is distributed under the MIT License.
