@@ -14,10 +14,11 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AssemblySoft.FileClient.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+::%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AssemblySoft.FileClient.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+"%programfiles(x86)%\MSBuild\14.0\Bin\MSBuild.exe" AssemblySoft.FileClient.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
 
-mkdir Build
-mkdir Build\lib
-mkdir Build\lib\net40
+::mkdir Build
+::mkdir Build\lib
+::mkdir Build\lib\net40
 
-%nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+::%nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
