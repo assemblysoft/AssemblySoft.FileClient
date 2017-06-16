@@ -12,12 +12,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>File client for .Net Framework for common file tasks.</description>
     <summary>Copy directory, Delete file, Create a clean directory structure from an existing populated directory structure.</summary>
-    <tags>File Copy, Directory Copy, Delete File, Unzip directory, unzip file, Create empty directory structure from existing directory</tags>
-    
-    <releasenote>
-      Removed obsolete method: WriteToFile
-      Supports .Net Framework up to version 4.5.2
-    </releasenote>
-    
+    <tags>File Copy, Directory Copy, Delete File, Unzip directory, unzip file, Create empty directory structure from existing directory</tags>  
   </metadata>
 </package>
