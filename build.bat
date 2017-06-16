@@ -21,4 +21,4 @@ if "%nuget%" == "" (
 ::mkdir Build\lib
 ::mkdir Build\lib\net40
 
-::%nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
