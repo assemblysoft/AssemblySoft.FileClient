@@ -6,11 +6,15 @@ set config=%1
 if "%config%" == "" (
    set config=Release
 )
- 
+
+goto :nuget
 set version=1.0.0
 if not "%PackageVersion%" == "" (
    set version=%PackageVersion%
 )
+*/
+
+:nuget
 
 set nuget=
 if "%nuget%" == "" (
