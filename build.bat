@@ -8,15 +8,11 @@ if "%config%" == "" (
 )
 
 set version=1.0.0.5
-goto :nuget
 
+set version=
 if not "%PackageVersion%" == "" (
-   set version=%PackageVersion%
+   set version=-Version %PackageVersion%
 )
-*/
-
-:nuget
-
 set nuget=
 if "%nuget%" == "" (
 	set nuget=nuget
