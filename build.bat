@@ -16,10 +16,6 @@ if "%nuget%" == "" (
 
 "%programfiles(x86)%\MSBuild\14.0\Bin\MSBuild.exe" AssemblySoft.FileClient.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
 
-::mkdir Build
-::mkdir Build\lib
-::mkdir Build\lib\net40
-
 mkdir Build
 ::call %nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.csproj" -IncludeReferencedProjects -verbosity detailed -o Build -p Configuration=%config% %version%
 call %nuget% pack "AssemblySoft.FileClient\AssemblySoft.FileClient.nuspec" -IncludeReferencedProjects -verbosity detailed -o Build -p Configuration="%config%"
