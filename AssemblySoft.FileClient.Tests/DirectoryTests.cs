@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AssemblySoft.FileClient.Tests
 {
-    public class Class1
+    public class DirectoryTests
     {
     }
 }
