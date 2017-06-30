@@ -8,6 +8,20 @@ namespace AssemblySoft.IO
     /// </summary>
     public partial class FileClient
     {
+        
+        /// <summary>
+        /// Reads text from a file
+        /// </summary>
+        public static string ReadAllText(string path)
+        {
+            if (File.Exists(path))
+            {
+                return File.ReadAllText(path);
+            }            
+            
+            return string.Empty;
+        }            
+        
         /// <summary>
         /// Writes text to a text file
         /// </summary>
