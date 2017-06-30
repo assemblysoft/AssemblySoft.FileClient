@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
 
-namespace AssemblySoft.IO
+namespace AssemblySoft.FileClient
 {
     /// <summary>
     /// Client for common file tasks
